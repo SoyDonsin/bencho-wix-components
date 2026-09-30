@@ -439,7 +439,7 @@
     }
 
     _applyTheme() {
-      const theme = (this.getAttribute('theme') || 'light').toLowerCase();
+      const theme = (this.getAttribute('theme') || 'dark').toLowerCase();
       if (theme === 'dark') {
         this.style.setProperty('--bencho-card', '#25262b');
         this.style.setProperty('--bencho-fill-slab', '#25262b');
